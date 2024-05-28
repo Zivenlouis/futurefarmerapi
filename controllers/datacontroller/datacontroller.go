@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strconv"
 
-	"github.com/jovinkendrico/futurefarmerapi/helper"
-	"github.com/jovinkendrico/futurefarmerapi/models"
+	"github.com/zivenlouis/futurefarmerapi/helper"
+	"github.com/zivenlouis/futurefarmerapi/models"
 )
 
 func InsertData(w http.ResponseWriter, r *http.Request) {

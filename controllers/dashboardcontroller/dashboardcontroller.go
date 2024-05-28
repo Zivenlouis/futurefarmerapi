@@ -3,8 +3,8 @@ package dashboardcontroller
 import (
 	"net/http"
 
-	"github.com/jovinkendrico/futurefarmerapi/helper"
-	"github.com/jovinkendrico/futurefarmerapi/models"
+	"github.com/zivenlouis/futurefarmerapi/helper"
+	"github.com/zivenlouis/futurefarmerapi/models"
 	"gorm.io/gorm"
 )
 

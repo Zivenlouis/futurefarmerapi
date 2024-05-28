@@ -1,4 +1,4 @@
-module github.com/jovinkendrico/futurefarmerapi
+module github.com/zivenlouis/futurefarmerapi
 
 go 1.22.3
 

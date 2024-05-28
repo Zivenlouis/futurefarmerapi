@@ -16,6 +16,7 @@ type RelayStatus struct {
 	Id         int64     `gorm:"primaryKey" json:"id"`
 	SensorId   int64     `gorm:"not null;index" json:"sensor_id"` // Corrected the type and added json annotation
 	Type       string    `gorm:"type:varchar(100);not null" json:"type"`
+	Duration   int64    `gorm:"type:int;not null" json:"duration"` 
 	Status     int64     `gorm:"type:int;not null" json:"status"` // Ensured the type is consistent and added json annotation
 	UpdatedAt  time.Time `json:"updated_at"` // Corrected the field name to follow Go conventions
 }

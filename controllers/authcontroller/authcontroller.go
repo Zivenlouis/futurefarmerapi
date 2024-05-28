@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/jovinkendrico/futurefarmerapi/config"
-	"github.com/jovinkendrico/futurefarmerapi/helper"
-	"github.com/jovinkendrico/futurefarmerapi/models"
+	"github.com/zivenlouis/futurefarmerapi/config"
+	"github.com/zivenlouis/futurefarmerapi/helper"
+	"github.com/zivenlouis/futurefarmerapi/models"
 	"golang.org/x/crypto/bcrypt"
 	"gorm.io/gorm"
 )
